@@ -1,15 +1,29 @@
+const colors = [
+  "red",           // 赤
+  "orange",        // オレンジ
+  "pink",          // ピンク
+  "purple",        // 紫
+  "darkgreen",     // 深緑
+  "peachpuff",     // 肌色
+  "yellow",        // 黄色
+  "blue",          // 青
+  "skyblue",       // 水色
+  "saddlebrown",   // 茶色
+  "limegreen"      // 黄緑
+];
+
 const initialState = [
-  ['red', 'blue', 'red', 'blue'],
-  ['green', 'green', 'yellow', 'yellow'],
-  ['purple', 'purple', 'orange', 'orange'],
-  ['pink', 'pink', 'cyan', 'cyan'],
-  ['gray', 'gray', 'brown', 'brown'],
-  ['magenta', 'magenta', 'blue', 'red'],
-  ['yellow', 'green', 'red', 'blue'],
-  ['cyan', 'orange', 'gray', 'magenta'],
-  ['brown', 'pink', 'purple', 'green'],
-  ['gray', 'pink', 'orange', 'cyan'],
-  ['brown', 'magenta', 'yellow', 'purple'],
+  ['red', 'darkgreen', 'red', 'purple'],
+  ['red', 'orange', 'skyblue', 'blue'],
+  ['red', 'peachpuff', 'purple', 'limegreen'],
+  ['yellow', 'darkgreen', 'saddlebrown', 'skyblue'],
+  ['skyblue', 'pink', 'skyblue', 'limegreen'],
+  ['peachpuff', 'purple', 'peachpuff', 'darkgreen'],
+  ['orange', 'saddlebrown', 'yellow', 'limegreen'],
+  ['pink', 'orange', 'purple', 'blue'],
+  ['blue', 'saddlebrown', 'yellow', 'limegreen'],
+  ['orange', 'pink', 'yellow', 'darkgreen'],
+  ['pink', 'peachpuff', 'blue', 'saddlebrown'],
   [], []
 ];
 
